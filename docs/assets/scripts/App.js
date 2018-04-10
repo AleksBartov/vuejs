@@ -15,6 +15,12 @@ const app = new Vue ({
         fullName: "Тавров Андрей",
         age: 11
       },
-    ]
+    ],
+    studentCount: 0,
+    },
+    methods: {
+      addNewStudent() {
+        this.studentCount += 1
+      }
   }
 })
