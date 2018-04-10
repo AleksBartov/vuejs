@@ -17,6 +17,7 @@ const app = new Vue ({
       },
     ],
     studentCount: 0,
+    mainPhoto: "assets/images/varja.jpg"
     },
     methods: {
       addNewStudent() {

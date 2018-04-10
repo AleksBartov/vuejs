@@ -7,7 +7,7 @@
   <meta name="keywords" content="Православие. Духовное образование. Воскресная школа. Собор Святой Живоначальной Троицы лейб-гвардии измайловского полка.">
   <meta name="description" content="Сайт воскресной школы (учебно-воспитательной воскресной группы) собора Святой Живоначальной Троицы лейб-гвардии измайловского полка">
 
-  <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="stylesheet" href="./temp/styles/main.css">
 
 
 </head>
@@ -16,6 +16,9 @@
     <header>
       <h1>{{ product }}</h1>
     </header>
+    <div class="main-photo">
+      <img :src="mainPhoto" />
+    </div>
     <div class="list-of-students">
       <ol>
         <li v-for="student in students"><a href="#">{{student.fullName}}</a></li>
