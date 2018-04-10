@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Воскресная школа</title>
+  <meta name="keywords" content="Православие. Духовное образование. Воскресная школа. Собор Святой Живоначальной Троицы лейб-гвардии измайловского полка.">
+  <meta name="description" content="Сайт воскресной школы (учебно-воспитательной воскресной группы) собора Святой Живоначальной Троицы лейб-гвардии измайловского полка">
+
+  <link rel="stylesheet" href="./assets/styles/main.css">
+
+
+</head>
+<body>
+  <div id="test">
+    <header>
+      <h1>{{ product }}</h1>
+    </header>
+    <div class="list-of-students">
+      <ol>
+        <li v-for="student in students"><a href="#">{{student.fullName}}</a></li>
+      </ol>
+    </div>
+
+  </div>
+
+
+
+
+  <footer class="site-footer">
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="./assets/scripts/App.js"></script>
+
+</body>
+</html>
